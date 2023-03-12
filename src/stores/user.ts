@@ -9,7 +9,6 @@ const createUser = () => {
     login: '',
     location: '',
     bio: '',
-    twitter_username: '',
     public_repos: 0,
     followers: 0,
     following: 0,

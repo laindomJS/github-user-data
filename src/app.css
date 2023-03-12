@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply min-h-screen w-full bg-[#141c2f] text-white font-mono
+    @apply min-h-screen w-full bg-[#F5F8FF] dark:bg-[#141c2f] text-black dark:text-white font-mono
   }
 }

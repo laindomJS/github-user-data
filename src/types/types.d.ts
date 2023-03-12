@@ -4,7 +4,6 @@ type User = {
   login: string,
   location: string,
   bio: string,
-  twitter_username: string,
   public_repos: number,
   followers: number,
   following: number,
@@ -12,3 +11,6 @@ type User = {
   html_url: string,
 }
 
+type ApiError = {
+  message: string,
+}
